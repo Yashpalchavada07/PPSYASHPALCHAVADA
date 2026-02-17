@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+    int a, b;
+    printf("Give me the value of a");
+    printf("Give me the value of b");
+    scanf("%d", &a);
+    scanf("%d", &b);
+    printf("The Addition of a and b is %d\n", a + b);
+    printf("The Substraction of a and b is %d\n", a - b);
+    printf("The Multiplication of a and b is %d\n", a * b);
+    printf("The division of a and b is %d\n", a / b);
+    printf("The modulo of a and b is %d\n", a % b);
+    return 0;
+}
